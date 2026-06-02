@@ -1,0 +1,31 @@
+---
+title: "Caitlin McCann"
+#toc: true
+#toc-title: "About Me"
+#toc-location: left
+#format:
+#  html: default
+#title-block-banner: true
+#theme: solar
+#data: embed-resources
+---
+
+:::: {.profile-header layout="[30,70]"}
+![](Images_files\caitlinpic.png){.center width="290"}
+
+## Hello!
+
+My name is Caitlin McCann, and I am currently working on a PhD in Horticulture at North Carolina State University in [the lab of Dr. Hsuan Chen](https://cals.ncsu.edu/horticultural-science/people/hchen57/). I completed my MS in the University of Georgia's Institute of Plant Breeding, Genetics, and Genomics, and my BS in Biology at the University of Alabama - You can access my resume [here](Images_files\2026%20McCann%20Resume.pdf)
+
+::: {layout-nrow="3"}
+[![](https://cdn.freebiesupply.com/images/large/2x/instagram-icon-white-on-black.png){.center width="57"}](https://www.instagram.com/redheadcaitlin/) [![](https://static.vecteezy.com/system/resources/previews/018/930/585/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png){.center width="61"}](https://www.linkedin.com/in/caitlinmccann2020/) [![](https://static.sketchfab.com/img/press/logos/sketchfab-logo-black.png){.center width="40"}](https://sketchfab.com/RedHeadCaitlin)
+:::
+
+You can read the research proposal for my master's degree [here](Images_files\McCann%20Proposal.pdf)
+::::
+
+::: column-margin
+![](Images_files\peaches.png){width="245"}
+
+<p><a href="https://www.vecteezy.com/png/20482815-peach-watercolor-painting-side-border">Image Credit</a></p>
+:::

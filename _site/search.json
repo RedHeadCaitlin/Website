@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Caitlin McCann",
+    "section": "",
+    "text": "My name is Caitlin McCann and I am a current Master’s student studying horticulture in the University of Georgia’s Institute of Plant Breeding, Genetics, and Genomics. I am an alumnus of the University of Alabama, where I earned a BS in Biology with a minor in Blount/Liberal Arts. - You can access my resume here"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "In my time at the University of Alabama, I learned a lot about the world of academic research. I was also the vice president of the Outdoor Adventures Club, helping to organize caving trips and hikes for the club’s hundreds of members. During my internships with Syngenta I experienced the industry side of research, which has been invaluable as I progress through my professional journey. I am excited to continue my on this path in Dr. Chavez’s lab at UGA, where I will be contributing to genetic and phenotypic research on peaches.\nI look forward to seeing what’s next as I continue to explore the fields of agriculture and horticulture!"
+  },
+  {
+    "objectID": "index.html#hello",
+    "href": "index.html#hello",
+    "title": "Caitlin McCann",
+    "section": "",
+    "text": "My name is Caitlin McCann and I am a current Master’s student studying horticulture in the University of Georgia’s Institute of Plant Breeding, Genetics, and Genomics. I am an alumnus of the University of Alabama, where I earned a BS in Biology with a minor in Blount/Liberal Arts. - You can access my resume here"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Caitlin’s Website",
+    "section": "Education",
+    "text": "Education\nI went to UA and I am going to UGA"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Caitlin’s Website",
+    "section": "Experience",
+    "text": "Experience\n\nLabs\n2 labs\n\n\nInternships\n2 internships"
+  },
+  {
+    "objectID": "index.html#achievements",
+    "href": "index.html#achievements",
+    "title": "Caitlin’s Website",
+    "section": "Achievements",
+    "text": "Achievements\nI got a scholarship good GPA Summa Cum Laude Fellowship"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\nI went to UA and I am going to UGA"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About Me",
+    "section": "Experience",
+    "text": "Experience\n\nLabs\n2 labs\n\n\nInternships\n2 internships"
+  },
+  {
+    "objectID": "about.html#achievements",
+    "href": "about.html#achievements",
+    "title": "About Me",
+    "section": "Achievements",
+    "text": "Achievements\n\nRecipient of University of Alabama’s Presidential Scholarship\nGraduated Summa Cum Laude\nVice President of the Outdoor Adventures Club\nPresented at UA’s URCA conference and at Botany Conference 2021\nRecipient of University of Georgia’s Graduate Student Fellowship"
+  },
+  {
+    "objectID": "Education.html",
+    "href": "Education.html",
+    "title": "Education",
+    "section": "",
+    "text": "I attended the University of Alabama from 2019 to 2023, graduating Summa Cum Laude with a BS in Biology and a minor in Blount/Liberal Arts.\nI was part of the Blount Scholars Program, as well as vice president of the Outdoor Adventures Club and a member of the General Art Club.\nIn the Spring of 2022 I studied abroad at Maynooth University in Ireland.\nI am currently pursuing a master’s degree at the University of Georgia. I am working in the lab of Dr. Dario Chavez under the umbrella of the Institute of Plant Breeding, Genetics, and Genomics.\n\nLabs\nDuring my time at UA I was a member of two labs; I worked with Dr. McKain studying invasive Johnson grass and with Dr. Benstead investigating freshwater macro invertebrate ecology.\nIn the McKain lab, I worked with a team of graduate and undergraduate students to collect samples, isolate DNA, and construct genetic libraries with the goal of understanding the mode of invasion of Johnson grass in the southeastern United States. A fellow undergraduate and I presented this poster at UA’s Undergraduate Research and Creative Activities conference.\nIn the Benstead lab, I worked with a PhD student to sort through freshwater stream samples and isolate macro invertebrates. The goal of the project was to determine the effect of stream warming on invertebrate populations and, by extension, freshwater ecosystems as a whole.\nIn the Chavez lab, I am currently working to assemble a phylogeny of peach cultivars."
+  },
+  {
+    "objectID": "Education.html#quarto",
+    "href": "Education.html#quarto",
+    "title": "Education",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "Education.html#running-code",
+    "href": "Education.html#running-code",
+    "title": "Education",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  },
+  {
+    "objectID": "Education.html#education",
+    "href": "Education.html#education",
+    "title": "Education",
+    "section": "",
+    "text": "I attended the University of Alabama from 2019 to 2023, graduating Summa Cum Laude with a BS in Biology and a minor in Blount/Liberal Arts.\nI was part of the Blount Scholars Program, as well as vice president of the Outdoor Adventures Club and a member of the General Art Club.\nIn the Spring of 2022 I studied abroad at Maynooth University in Ireland.\nI am currently pursuing a master’s degree at the University of Georgia. I am working in the lab of Dr. Dario Chavez under the umbrella of the Institute of Plant Breeding, Genetics, and Genomics.\n\n\nDuring my time at UA I was a member of two labs; I worked with Dr. McKain studying invasive Johnson grass and with Dr. Benstead investigating freshwater macro invertebrate ecology.\nIn the McKain lab, I worked with a team of graduate and undergraduate students to collect samples, isolate DNA, and construct genetic libraries with the goal of understanding the mode of invasion of Johnson grass in the southeastern United States. A fellow undergraduate and I presented this poster at UA’s Undergraduate Research and Creative Activities conference.\nIn the Benstead lab, I worked with a PhD student to sort through freshwater stream samples and isolate macro invertebrates. The goal of the project was to determine the effect of stream warming on invertebrate populations and, by extension, freshwater ecosystems as a whole.\nIn the Chavez lab, I am currently working to assemble a phylogeny of peach cultivars. In addition to my main project, I also …"
+  },
+  {
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Experience",
+    "section": "",
+    "text": "Coding in R\nLaboratory procedure\nTissue sampling and hand pollination\n\n\n\n\nSmartsheet and Lucidcharts programs\nMicrosoft Office (word, excel, powerpoint, etc)\nAdobe Creative Cloud"
+  },
+  {
+    "objectID": "experience.html#experience",
+    "href": "experience.html#experience",
+    "title": "Experience",
+    "section": "",
+    "text": "2 labs\n\n\n\n2 internships"
+  },
+  {
+    "objectID": "experience.html#skills",
+    "href": "experience.html#skills",
+    "title": "Experience",
+    "section": "Skills",
+    "text": "Skills\n\n\n\n\nCoding in R\nLaboratory procedure\nTissue sampling and hand pollination\n\n\n\n\nSmartsheet and Lucidcharts programs\nMicrosoft Office (word, excel, powerpoint, etc)\nAdobe Creative Cloud"
+  },
+  {
+    "objectID": "experience.html#lab-work",
+    "href": "experience.html#lab-work",
+    "title": "Experience",
+    "section": "Lab Work",
+    "text": "Lab Work\nI have worked in two labs during my undergraduate degree. I am currently doing an assistantship in the Chavez lab at the University of Georgia. Click here for full info on labs"
+  },
+  {
+    "objectID": "experience.html#internships",
+    "href": "experience.html#internships",
+    "title": "Experience",
+    "section": "Internships",
+    "text": "Internships\n\nNA R&D Stewardship Intern, Syngenta\nAs the North America Stewardship Intern in Downers Grove, IL, my assignment was the streamlining and standardizing of stewardship documents across all North American locations. This involved learning the programs SmartSheet and LucidChart, which were used by Syngenta to create records of every employee who received on-the-job training. I spent the summer contacting site leads and visiting sites across the Midwest to learn how we could improve the current system and accommodate every employee, including seasonal workers. The internship culminated in a presentation of my results to Syngenta’s regional leaders and my fellow interns.\n\n\nSeeds Operations Intern, Syngenta\nDuring my time as the Seeds Operations Intern in Slater, IA, I learned about the more hands-on aspects of agricultural research. In corn and soybean fields I planted seed trials, led teams to take tissue samples and hand pollinate, and took notes on variety performance. Indoors I organized germplasm for genetic analysis, prepared seed requested by breeders, and prepared trial field layouts. I enjoyed the opportunity to experience both the corporate and field sides of agricultural research."
+  },
+  {
+    "objectID": "experience.html#other-jobs",
+    "href": "experience.html#other-jobs",
+    "title": "Experience",
+    "section": "Other Jobs",
+    "text": "Other Jobs\nI have worked as a camp counselor, laser tag crew member, warehouse employee, babysitter, and bug-picker. I look forward to continuing my accumulation of interesting and fun experiences."
+  }
+]

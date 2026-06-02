@@ -1,0 +1,26 @@
+---
+title: "Media"
+format:
+  html:
+    toc: false
+    code-tools:
+      source: true
+      toggle: false
+      caption: none
+---
+
+::: column-margin
+![](Images_files%5Clalapalooza1.jpg){width="145"}
+:::
+
+This page contains resources I have put together for extension outreach and education.
+
+::::: {.profile-header layout="[50,50]"}
+::: column
+{{< video https://youtu.be/bhRCyoJJUsc width="350" height="200" >}}
+:::
+
+::: column
+{{< video https://youtu.be/bhRCyoJJUsc width="350" height="200" >}}
+:::
+:::::

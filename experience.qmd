@@ -1,0 +1,51 @@
+---
+title: "Experience"
+format: html
+editor: visual
+---
+
+::: column-margin
+![](Images_files%5Ctallcorn.jpg){width="145"}
+:::
+
+## Skills
+
+::::: {layout-ncol="2"}
+::: column
+- R, Linux, Claude AI
+
+- Molecular Markers and Genomic Data
+
+- Tissue Culture
+:::
+
+::: column
+- Public Speaking and Presentation
+
+- Microsoft Office
+
+- Adobe Creative Cloud
+:::
+:::::
+
+## Lab Work
+
+My PhD research is being conducted in ornamental plant breeding, especially *Cercis* (Redbud) species. My projects include marker-trait association for valuable ornamental traits, development of marker-assisted selection methods for ornamental species, cytological investigation of *Cercis* species and interspecific hybrids using FISH and GISH methods, and physiological studies of native ornamental plants. During my master's degree, I studied population structure of peach (*Prunus persica*) and other prunus species by combining genomic data with historical pedigree records. In undergrad, I assisted in multiple labs, studying invasive grasses and stream ecology. [Click here for full info on labs.](Education.qmd)
+
+## Internships
+
+### NA R&D Stewardship Intern, [Syngenta](https://www.syngenta.com/en)
+
+As the North America Stewardship Intern in Downers Grove, IL, my assignment was the streamlining and standardization of stewardship documents across all North American locations. This involved learning the programs SmartSheet and LucidChart, which were used by Syngenta to create records of every employee who received on-the-job training. I spent the summer contacting site leads and visiting sites across the Midwest to learn how we could improve the current system and accommodate every employee, including seasonal workers. The internship culminated in a presentation of my results to Syngenta's regional leaders and my fellow interns.
+
+### Seeds Operations Intern, [Syngenta](https://www.syngenta.com/en)
+
+During my time as the Seeds Operations Intern in Slater, IA, I learned about the more hands-on aspects of agricultural research. In corn and soybean fields I planted seed trials, led teams to take tissue samples and hand pollinate corn, and took notes on variety performance. Indoors, I organized germplasm for genetic analysis, prepared seed requested by breeders, and built trial field layouts. I enjoyed the opportunity to experience both the corporate and field sides of agricultural research.
+
+::: {layout-nrow="3"}
+![Me](Images_files%5Cme_cutting_soybeans.jpg){width="156"} ![](Images_files%5Ccorn_field2.jpg){width="362"} ![Lauren and Heidi](Images_files%5CLauren_and_Heidi.jpg){width="156"}
+:::
+
+## Other Jobs
+
+In the last ten years, I have been fortunate to work in many areas, refining my communication skills and reinforcing my ability to adapt to any given environment. I have worked as a camp counselor, laser tag crew member, warehouse employee, babysitter, farm contractor, and bug-picker. I look forward to the new and exciting experiences that I know the future will bring.

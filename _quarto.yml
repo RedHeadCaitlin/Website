@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Caitlin's Website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - Education.qmd
+      - experience.qmd
+      - Videos.qmd
+  page-footer:
+    left: "This website was made in [the R coding language](https://www.r-project.org/about.html#:~:text=R%20is%20a%20language%20and,by%20John%20Chambers%20and%20colleagues) using [Quarto](https://quarto.org/)."
+
+format:
+  html:
+    code-tools:
+      source: true
+      toggle: false
+      caption: none
+    theme: 
+      light: css attempt\botanica.scss
+      dark: css attempt\botanica-dark.scss
+    css: styles.css
+    toc: true
+    toc-location: left
+
+editor: visual
+

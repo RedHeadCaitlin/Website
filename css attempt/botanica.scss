@@ -1,0 +1,578 @@
+/*-- scss:defaults --*/
+
+$theme: "botanica" !default;
+
+//
+// Color system
+// Inspired by herbarium specimens, scientific illustration, and pressed botanicals
+//
+
+$white:    #faf9f6 !default;  // warm off-white, like quality paper
+$gray-100: #f4f2ec !default;  // aged linen
+$gray-200: #e8e4d9 !default;  // dried parchment
+$gray-300: #d4cebf !default;  // pale pressed leaf
+$gray-400: #b8b0a0 !default;
+$gray-500: #908880 !default;
+$gray-600: #6e6860 !default;
+$gray-700: #4a453e !default;  // warm dark brown-gray
+$gray-800: #2e2b25 !default;  // deep ink
+$gray-900: #1a1814 !default;
+$black:    #0d0c09 !default;
+
+// Named palette — botanical illustration tones
+$blue:    #4a7c8e !default;   // faded blue ink
+$indigo:  #3d5a7a !default;   // deep indigo-blue
+$purple:  #6b5b7a !default;
+$pink:    #b07a7a !default;   // dried rose
+$red:     #8b4040 !default;   // deep botanical red
+$orange:  #a06030 !default;   // warm umber
+$yellow:  #c8a84b !default;   // aged gilt
+$green:   #4a7c5e !default;   // deep forest green
+$teal:    #3d7068 !default;   // lichen teal
+$cyan:    #5b8a8a !default;   // slate blue-green
+
+// Semantic roles
+$primary:       #3a6647 !default;   // deep botanical green — the anchor
+$secondary:     #7a6a4a !default;   // warm umber-brown — like dried stems
+$success:       #4a7c5e !default;
+$info:          #4a7c8e !default;
+$warning:       #c8a84b !default;
+$danger:        #8b4040 !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+$min-contrast-ratio:   2.5 !default;
+
+// Body
+$body-bg:                   $gray-100 !default;   // warm linen background
+$body-color:                $gray-700 !default;
+$color-contrast-dark:       $gray-800 !default;
+$color-contrast-light:      $white !default;
+
+// Links
+$link-color:                $primary !default;
+$link-hover-color:          darken($primary, 12%) !default;
+
+// Components
+
+$border-color:                $gray-300 !default;
+$border-radius:               .25rem !default;
+$border-radius-lg:            .375rem !default;
+$border-radius-sm:            .2rem !default;
+
+$box-shadow:                  0 2px 8px rgba($gray-800, .08), 0 1px 3px rgba($gray-800, .05) !default;
+$box-shadow-sm:               0 1px 4px rgba($gray-800, .07) !default;
+$box-shadow-lg:               0 6px 24px rgba($gray-800, .10) !default;
+
+// Fonts
+// Pairing: Cormorant Garamond (elegant serif for headings, like a botanical atlas)
+//          + Source Serif 4 (readable, warm body text)
+
+$font-family-sans-serif:   'Source Serif 4', Georgia, 'Times New Roman', serif !default;
+$font-family-base:          $font-family-sans-serif !default;
+
+$headings-font-family:      'Cormorant Garamond', 'Palatino Linotype', Palatino, serif !default;
+$headings-font-weight:      600 !default;
+$headings-color:            $gray-800 !default;
+$headings-line-height:      1.25 !default;
+$headings-letter-spacing:   .01em !default;
+
+$font-size-base:            1rem !default;
+$line-height-base:          1.7 !default;   // generous leading for readability
+
+$h1-font-size:              2.4rem !default;
+$h2-font-size:              1.9rem !default;
+$h3-font-size:              1.5rem !default;
+$h4-font-size:              1.25rem !default;
+$h5-font-size:              1.05rem !default;
+$h6-font-size:              .9rem !default;
+
+// Tables
+
+$table-color:                 $body-color !default;
+$table-bg:                    transparent !default;
+$table-striped-bg:            rgba($primary, .04) !default;
+$table-hover-bg:              rgba($primary, .07) !default;
+$table-border-color:          $gray-300 !default;
+$table-bg-scale:              0 !default;
+
+// Buttons + Forms
+
+$input-bg:                    $white !default;
+$input-border-color:          $gray-300 !default;
+$input-focus-border-color:    $primary !default;
+$input-focus-box-shadow:      0 0 0 .2rem rgba($primary, .18) !default;
+$input-placeholder-color:     $gray-400 !default;
+
+$btn-font-family:             $headings-font-family !default;
+$btn-font-weight:             600 !default;
+$btn-letter-spacing:          .04em !default;
+$btn-border-radius:           .25rem !default;
+
+// Cards
+
+$card-bg:                     $white !default;
+$card-border-color:           $gray-200 !default;
+$card-border-radius:          .375rem !default;
+$card-cap-bg:                 $gray-100 !default;
+$card-box-shadow:             $box-shadow !default;
+
+// Dropdowns
+
+$dropdown-bg:                       $white !default;
+$dropdown-border-color:             $gray-200 !default;
+$dropdown-link-color:               $gray-700 !default;
+$dropdown-link-hover-color:         $white !default;
+$dropdown-link-hover-bg:            $primary !default;
+$dropdown-link-active-bg:           $primary !default;
+
+// Navbar
+
+$navbar-padding-y:                  .75rem !default;
+$navbar-dark-color:                 rgba($white, .75) !default;
+$navbar-dark-hover-color:           $white !default;
+$navbar-dark-active-color:          $white !default;
+$navbar-light-color:                $gray-600 !default;
+$navbar-light-hover-color:          $gray-800 !default;
+$navbar-light-active-color:         $primary !default;
+$navbar-light-disabled-color:       rgba($black, .15) !default;
+
+// Pagination
+
+$pagination-color:                  $primary !default;
+$pagination-bg:                     $white !default;
+$pagination-border-color:           $gray-300 !default;
+$pagination-hover-color:            $white !default;
+$pagination-hover-bg:               $primary !default;
+$pagination-hover-border-color:     $primary !default;
+$pagination-active-bg:              $primary !default;
+$pagination-active-border-color:    $primary !default;
+$pagination-disabled-color:         $gray-400 !default;
+$pagination-disabled-bg:            $gray-100 !default;
+$pagination-disabled-border-color:  $gray-200 !default;
+
+// Alerts
+
+$alert-color-scale:                 0% !default;
+$alert-bg-scale:                    0 !default;
+
+// Breadcrumbs
+
+$breadcrumb-padding-y:              .4rem !default;
+$breadcrumb-padding-x:              .8rem !default;
+$breadcrumb-bg:                     $gray-100 !default;
+$breadcrumb-divider-color:          $gray-400 !default;
+$breadcrumb-active-color:           $gray-600 !default;
+$breadcrumb-border-radius:          .2rem !default;
+
+// Code
+
+$code-color:                        $teal !default;
+$pre-bg:                            $gray-800 !default;
+$pre-color:                         $gray-200 !default;
+
+// HR
+
+$hr-color:                          $gray-300 !default;
+$hr-opacity:                        1 !default;
+
+
+/*-- scss:rules --*/
+
+
+// Web fonts — Cormorant Garamond (headings) + Source Serif 4 (body)
+
+$web-font-path: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;1,8..60,300;1,8..60,400&display=swap" !default;
+@if $web-font-path {
+  @import url($web-font-path);
+}
+
+
+// ─── Base ───────────────────────────────────────────────────────────────────
+
+body {
+  font-variant-ligatures: common-ligatures;
+  -webkit-font-smoothing: antialiased;
+}
+
+// Subtle decorative rule after h1/h2, echoing botanical plate dividers
+h1, h2 {
+  font-style: italic;
+  &::after {
+    content: '';
+    display: block;
+    width: 3rem;
+    height: 1px;
+    background-color: $primary;
+    margin-top: .5rem;
+    opacity: .5;
+  }
+}
+
+h3, h4, h5, h6 {
+  letter-spacing: .02em;
+}
+
+// Small-caps styling for certain elements — classic scientific text feel
+.small-caps,
+abbr {
+  font-variant: small-caps;
+  letter-spacing: .06em;
+}
+
+blockquote,
+.blockquote {
+  border-left: 2px solid $primary;
+  padding-left: 1.25rem;
+  color: $gray-600;
+  font-style: italic;
+}
+
+
+// ─── Navbar ─────────────────────────────────────────────────────────────────
+
+.navbar {
+  font-family: $headings-font-family;
+  font-size: 1.05rem;
+  letter-spacing: .04em;
+  border-bottom: 1px solid rgba($primary, .15);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+
+.bg-dark {
+  background-color: $gray-800 !important;
+}
+
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.border-dark {
+  border-color: $gray-700 !important;
+}
+
+
+// ─── Buttons ────────────────────────────────────────────────────────────────
+
+.btn {
+  font-family: $headings-font-family;
+  font-size: 1rem;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  transition: background-color .2s ease, box-shadow .2s ease, transform .1s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: $box-shadow;
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  color: $white;
+
+  &:hover {
+    background-color: darken($primary, 8%);
+    border-color: darken($primary, 8%);
+  }
+}
+
+.btn-outline-primary {
+  color: $primary;
+  border-color: $primary;
+
+  &:hover {
+    background-color: $primary;
+    color: $white;
+  }
+}
+
+
+// ─── Forms ──────────────────────────────────────────────────────────────────
+
+legend {
+  font-family: $headings-font-family;
+  font-size: 1.15rem;
+  font-style: italic;
+  color: $gray-700;
+  letter-spacing: .03em;
+}
+
+.form-control,
+.form-select {
+  background-color: $white;
+  border-color: $gray-300;
+  color: $gray-800;
+
+  &:focus {
+    border-color: $primary;
+    box-shadow: $input-focus-box-shadow;
+    background-color: $white;
+  }
+}
+
+.form-label {
+  font-size: .85rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: $gray-600;
+  font-family: $headings-font-family;
+}
+
+
+// ─── Navs / Tabs ────────────────────────────────────────────────────────────
+
+.dropdown-menu {
+  font-family: $font-family-sans-serif;
+  border-color: $gray-200;
+  box-shadow: $box-shadow;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid $gray-300;
+
+  .nav-link {
+    font-family: $headings-font-family;
+    letter-spacing: .04em;
+    color: $gray-600;
+    border: none;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    padding: .5rem .9rem;
+    transition: color .2s;
+
+    &:hover {
+      color: $primary;
+      border-bottom-color: rgba($primary, .3);
+    }
+
+    &.active {
+      color: $primary;
+      border-bottom-color: $primary;
+      background-color: transparent;
+      font-weight: 600;
+    }
+  }
+}
+
+.breadcrumb {
+  background-color: $gray-100;
+  padding: $breadcrumb-padding-y $breadcrumb-padding-x;
+  border-radius: $breadcrumb-border-radius;
+  font-size: .85rem;
+  letter-spacing: .03em;
+
+  a {
+    color: $primary;
+    text-decoration: none;
+    transition: color .2s;
+  }
+
+  a:hover {
+    color: darken($primary, 12%);
+  }
+}
+
+
+// ─── Cards ──────────────────────────────────────────────────────────────────
+
+.card {
+  border: 1px solid $gray-200;
+  box-shadow: $box-shadow-sm;
+  transition: box-shadow .25s ease;
+
+  &:hover {
+    box-shadow: $box-shadow;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+  }
+
+  // A subtle top-border accent on cards
+  &.card-accent {
+    border-top: 3px solid $primary;
+  }
+}
+
+.card-header {
+  font-family: $headings-font-family;
+  font-size: 1.05rem;
+  font-style: italic;
+  letter-spacing: .03em;
+  border-bottom: 1px solid $gray-200;
+}
+
+
+// ─── List groups ────────────────────────────────────────────────────────────
+
+.list-group-item {
+  border-color: $gray-200;
+  background-color: $white;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+  }
+
+  &.active {
+    background-color: $primary;
+    border-color: $primary;
+  }
+}
+
+
+// ─── Indicators ─────────────────────────────────────────────────────────────
+
+.alert {
+  border-left: 3px solid;
+  border-radius: $border-radius;
+
+  a,
+  .alert-link {
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: .2em;
+  }
+
+  &-success {
+    border-left-color: $success;
+    background-color: mix($success, $white, 8%);
+    color: darken($success, 15%);
+    a, .alert-link { color: darken($success, 20%); }
+  }
+
+  &-danger {
+    border-left-color: $danger;
+    background-color: mix($danger, $white, 8%);
+    color: darken($danger, 10%);
+    a, .alert-link { color: darken($danger, 15%); }
+  }
+
+  &-warning {
+    border-left-color: $warning;
+    background-color: mix($warning, $white, 10%);
+    color: darken($warning, 25%);
+    a, .alert-link { color: darken($warning, 30%); }
+  }
+
+  &-info {
+    border-left-color: $info;
+    background-color: mix($info, $white, 8%);
+    color: darken($info, 15%);
+    a, .alert-link { color: darken($info, 20%); }
+  }
+
+  &-light {
+    &,
+    a:not(.btn),
+    .alert-link {
+      color: $body-color;
+    }
+  }
+}
+
+.badge {
+  font-family: $headings-font-family;
+  font-size: .78rem;
+  font-style: italic;
+  letter-spacing: .05em;
+  color: $white;
+
+  &.bg-light {
+    color: $gray-700;
+  }
+
+  &.bg-secondary {
+    background-color: $secondary !important;
+  }
+}
+
+
+// ─── Tables ─────────────────────────────────────────────────────────────────
+
+.table {
+  font-size: .93rem;
+
+  thead th {
+    font-family: $headings-font-family;
+    font-size: .82rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: $gray-600;
+    border-bottom: 2px solid $gray-300;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  &-bordered {
+    border-color: $gray-200;
+  }
+}
+
+
+// ─── Code ───────────────────────────────────────────────────────────────────
+
+code {
+  font-size: .88em;
+  color: $teal;
+  background-color: rgba($teal, .07);
+  padding: .1em .35em;
+  border-radius: .2rem;
+}
+
+pre {
+  background-color: $gray-800;
+  color: $gray-200;
+  padding: 1.25rem 1.5rem;
+  border-radius: $border-radius-lg;
+  font-size: .88rem;
+  border-left: 3px solid $primary;
+
+  code {
+    color: inherit;
+    background-color: transparent;
+    padding: 0;
+  }
+}
+
+
+// ─── Pagination ─────────────────────────────────────────────────────────────
+
+.pagination {
+  font-family: $headings-font-family;
+  letter-spacing: .04em;
+}
+
+
+// ─── Utility: botanical section divider ─────────────────────────────────────
+// Use <hr class="divider-botanical"> for a decorative ruled line
+
+.divider-botanical {
+  border: none;
+  border-top: 1px solid $gray-300;
+  text-align: center;
+  margin: 2rem auto;
+  position: relative;
+  max-width: 80%;
+
+  &::after {
+    content: '✦';
+    display: inline-block;
+    position: relative;
+    top: -.65em;
+    background-color: $gray-100;
+    padding: 0 .75rem;
+    color: $primary;
+    font-size: .85rem;
+    opacity: .6;
+  }
+}

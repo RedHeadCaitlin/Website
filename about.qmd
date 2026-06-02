@@ -1,0 +1,34 @@
+---
+title: "About Me"
+format:
+  html:
+    toc: true
+    code-tools:
+      source: true
+      toggle: false
+      caption: none
+---
+
+::: column-margin
+![](Images_files%5Clalapalooza1.jpg){width="145"}
+:::
+
+::::: {.profile-header layout="[30,70]"}
+::: column
+![](Images_files%5Cfam.jpg){width="216"}
+:::
+
+::: column
+I'm originally from a small-ish suburb west of Chicago called Downer's Grove. I grew up there with my parents, younger sister, and two cats. My parents' willingness to let me dig up the yard to plant flowers is probably why I'm getting a PhD in horticulture today.
+
+I enjoy outdoor activities like tennis, hiking, and trying to keep a garden alive. When I am not outside, I like to crochet, embroider, and dabble in 3D modeling. I try to learn new hobbies whenever I can.
+
+I look forward to a future career where I can continue to engage my love of plants, people, and problem-solving.
+:::
+:::::
+
+I am very lucky that I have had many opportunities to explore and engage with the scientific community, as well as community in general. During my undergraduate degree at the University of Alabama, I worked in two different labs. The first studied invasive Johnson grass, which gave me my first taste of plant genetics and scientific presentations. The second studied stream ecology, which gave me grocery money and a chance to look at neat bugs all day. Toward the end of my time at Alabama, I spent two summers interning at Syngenta. The first intership was at their corporate headquarters near Chicago, and the second was at a field trialing site in Iowa. Through those experiences, I realized I was interested in the fields of agriculture and plant breeding. I made connections with experienced breeders, who suggested I apply to graduate school at the University of Georgia. 
+
+During my master's degree at the University of Georgia, I met so many amazing people and participated in several valuable experiences. I gained bioinformatics experience, traveled for conferences and built my presentation skills, and learned about plant breeding from some of the most successful people in the field. 
+
+I went to North Carolina State University for my PhD partly because the research going on there was interesting, and partly because the Raleigh area is known to be a hotspot of biotechnology research. Since coming here, I have enjoyed the city and the people, and my new research on ornamental plants has been exciting. I hope that, by the time I finish this degree, I will have accumulated skills and connections that will help me in a career that is fulfilling and engaging, and I can do my part to improve the systems of agriculture and horticulture that people around the world rely on. 

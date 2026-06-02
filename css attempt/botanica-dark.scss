@@ -1,0 +1,720 @@
+/*-- scss:defaults --*/
+
+$theme: "botanica-dark" !default;
+
+//
+// Color system — Dark variant
+// Inspired by a night greenhouse: deep charcoal, moonlit foliage, phosphorescent accents
+//
+
+// Dark surfaces — warm charcoal, not cold blue-black
+$white:    #f0ede6 !default;  // warm off-white for text
+$gray-100: #e8e4db !default;
+$gray-200: #c8c2b4 !default;
+$gray-300: #a09880 !default;  // muted warm mid
+$gray-400: #7a7268 !default;
+$gray-500: #5e5850 !default;
+$gray-600: #454038 !default;
+$gray-700: #312e28 !default;  // card/surface level
+$gray-800: #232019 !default;  // elevated surface
+$gray-900: #161410 !default;  // page background
+$black:    #0d0b08 !default;
+
+// Accent palette — luminous, slightly desaturated for elegance
+$blue:    #6ea8b8 !default;   // cool moonlit blue
+$indigo:  #7a8fb8 !default;
+$purple:  #9a88b0 !default;
+$pink:    #c49494 !default;   // dusty rose
+$red:     #c46868 !default;   // warm ember red
+$orange:  #c88a50 !default;   // amber lantern
+$yellow:  #d4b05a !default;   // aged gilt, lighter for dark bg
+$green:   #6ab88a !default;   // phosphorescent leaf — the hero accent
+$teal:    #5aaa98 !default;   // moonlit lichen
+$cyan:    #7ab0b0 !default;
+
+// Semantic roles — lifted/lightened for dark-bg legibility
+$primary:       #6AB88A !default;   // luminous leaf green — glows against dark
+$secondary:     #a0885a !default;   // warm amber-brown — candlelight
+$success:       #6ab88a !default;
+$info:          #6ea8b8 !default;
+$warning:       #d4b05a !default;
+$danger:        #c46868 !default;
+$light:         $gray-700 !default;
+$dark:          $gray-900 !default;
+
+$min-contrast-ratio:   2.8 !default;
+
+// Body
+$body-bg:                   $gray-900 !default;   // deep warm dark
+$body-color:                $gray-200 !default;   // warm off-white text
+$color-contrast-dark:       $gray-900 !default;
+$color-contrast-light:      $white !default;
+
+// Links
+$link-color:                $primary !default;
+$link-hover-color:          lighten($primary, 10%) !default;
+
+// Components
+
+$border-color:                $gray-700 !default;
+$border-radius:               .25rem !default;
+$border-radius-lg:            .375rem !default;
+$border-radius-sm:            .2rem !default;
+
+$box-shadow:                  0 2px 12px rgba($black, .4), 0 1px 4px rgba($black, .3) !default;
+$box-shadow-sm:               0 1px 6px rgba($black, .3) !default;
+$box-shadow-lg:               0 8px 32px rgba($black, .5) !default;
+
+// Fonts — same pairing as light theme for cohesion
+
+$font-family-sans-serif:   'Source Serif 4', Georgia, 'Times New Roman', serif !default;
+$font-family-base:          $font-family-sans-serif !default;
+
+$headings-font-family:      'Cormorant Garamond', 'Palatino Linotype', Palatino, serif !default;
+$headings-font-weight:      600 !default;
+$headings-color:            $white !default;
+$headings-line-height:      1.25 !default;
+$headings-letter-spacing:   .01em !default;
+
+$font-size-base:            1rem !default;
+$line-height-base:          1.7 !default;
+
+$h1-font-size:              2.4rem !default;
+$h2-font-size:              1.9rem !default;
+$h3-font-size:              1.5rem !default;
+$h4-font-size:              1.25rem !default;
+$h5-font-size:              1.05rem !default;
+$h6-font-size:              .9rem !default;
+
+// Tables
+
+$table-color:                 $body-color !default;
+$table-bg:                    transparent !default;
+$table-striped-bg:            rgba($primary, .06) !default;
+$table-hover-bg:              rgba($primary, .10) !default;
+$table-border-color:          $gray-700 !default;
+$table-bg-scale:              0 !default;
+
+// Buttons + Forms
+
+$input-bg:                    $gray-800 !default;
+$input-border-color:          $gray-600 !default;
+$input-color:                 $gray-100 !default;
+$input-focus-border-color:    $primary !default;
+$input-focus-box-shadow:      0 0 0 .2rem rgba($primary, .22) !default;
+$input-placeholder-color:     $gray-500 !default;
+
+$btn-font-family:             $headings-font-family !default;
+$btn-font-weight:             600 !default;
+$btn-letter-spacing:          .04em !default;
+$btn-border-radius:           .25rem !default;
+
+// Cards
+
+$card-bg:                     $gray-800 !default;
+$card-border-color:           $gray-700 !default;
+$card-border-radius:          .375rem !default;
+$card-cap-bg:                 $gray-700 !default;
+$card-color:                  $gray-200 !default;
+$card-box-shadow:             $box-shadow !default;
+
+// Dropdowns
+
+$dropdown-bg:                       $gray-800 !default;
+$dropdown-border-color:             $gray-700 !default;
+$dropdown-link-color:               $gray-200 !default;
+$dropdown-link-hover-color:         $white !default;
+$dropdown-link-hover-bg:            rgba($primary, .25) !default;
+$dropdown-link-active-bg:           rgba($primary, .35) !default;
+$dropdown-divider-bg:               $gray-700 !default;
+
+// Navbar
+
+$navbar-padding-y:                  .75rem !default;
+$navbar-dark-color:                 rgba($white, .7) !default;
+$navbar-dark-hover-color:           $white !default;
+$navbar-dark-active-color:          $primary !default;
+$navbar-light-color:                $gray-300 !default;
+$navbar-light-hover-color:          $white !default;
+$navbar-light-active-color:         $primary !default;
+$navbar-light-disabled-color:       rgba($white, .2) !default;
+
+// Pagination
+
+$pagination-color:                  $primary !default;
+$pagination-bg:                     $gray-800 !default;
+$pagination-border-color:           $gray-600 !default;
+$pagination-hover-color:            $gray-900 !default;
+$pagination-hover-bg:               $primary !default;
+$pagination-hover-border-color:     $primary !default;
+$pagination-active-bg:              $primary !default;
+$pagination-active-border-color:    $primary !default;
+$pagination-disabled-color:         $gray-500 !default;
+$pagination-disabled-bg:            $gray-700 !default;
+$pagination-disabled-border-color:  $gray-600 !default;
+
+// Alerts
+
+$alert-color-scale:                 0% !default;
+$alert-bg-scale:                    0 !default;
+
+// Breadcrumbs
+
+$breadcrumb-padding-y:              .4rem !default;
+$breadcrumb-padding-x:              .8rem !default;
+$breadcrumb-bg:                     $gray-800 !default;
+$breadcrumb-divider-color:          $gray-500 !default;
+$breadcrumb-active-color:           $gray-300 !default;
+$breadcrumb-border-radius:          .2rem !default;
+
+// Code
+
+$code-color:                        $teal !default;
+$pre-bg:                            $gray-800 !default;
+$pre-color:                         $gray-200 !default;
+
+// HR
+
+$hr-color:                          $gray-700 !default;
+$hr-opacity:                        1 !default;
+
+
+/*-- scss:rules --*/
+
+
+// Web fonts — same pairing as light theme
+$web-font-path: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;1,8..60,300;1,8..60,400&display=swap" !default;
+@if $web-font-path {
+  @import url($web-font-path);
+}
+
+
+// ─── Base ───────────────────────────────────────────────────────────────────
+
+body {
+  font-variant-ligatures: common-ligatures;
+  -webkit-font-smoothing: antialiased;
+}
+
+// Heading decorative rule — glowing green on dark
+h1, h2 {
+  font-style: italic;
+  &::after {
+    content: '';
+    display: block;
+    width: 3rem;
+    height: 1px;
+    background-color: $primary;
+    margin-top: .5rem;
+    opacity: .45;
+  }
+}
+
+h3, h4, h5, h6 {
+  letter-spacing: .02em;
+}
+
+.small-caps,
+abbr {
+  font-variant: small-caps;
+  letter-spacing: .06em;
+}
+
+blockquote,
+.blockquote {
+  border-left: 2px solid rgba($primary, .5);
+  padding-left: 1.25rem;
+  color: $gray-300;
+  font-style: italic;
+}
+
+// Selection highlight
+::selection {
+  background-color: rgba($primary, .3);
+  color: $white;
+}
+
+
+// ─── Navbar ─────────────────────────────────────────────────────────────────
+
+.navbar {
+  font-family: $headings-font-family;
+  font-size: 1.05rem;
+  letter-spacing: .04em;
+  border-bottom: 1px solid rgba($primary, .12);
+  background-color: rgba($gray-100, .97);
+  backdrop-filter: blur(6px);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: .02em;
+  color: $white;
+}
+
+.bg-dark {
+  background-color: $gray-900 !important;
+}
+
+.bg-primary {
+  background-color: $primary !important;
+  color: $white !important;
+}
+
+.border-dark {
+  border-color: $gray-700 !important;
+}
+
+
+// ─── Buttons ────────────────────────────────────────────────────────────────
+
+.btn {
+  font-family: $headings-font-family;
+  font-size: 1rem;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  transition: background-color .2s ease, box-shadow .2s ease, transform .1s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: $box-shadow;
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  color: $gray-900;  // dark text on bright green for contrast
+  font-weight: 700;
+
+  &:hover {
+    background-color: lighten($primary, 7%);
+    border-color: lighten($primary, 7%);
+    color: $gray-900;
+  }
+}
+
+.btn-outline-primary {
+  color: $primary;
+  border-color: $primary;
+
+  &:hover {
+    background-color: rgba($primary, .15);
+    color: $primary;
+    border-color: $primary;
+  }
+}
+
+.btn-secondary {
+  background-color: $secondary;
+  border-color: $secondary;
+  color: $white;
+}
+
+.btn-light {
+  background-color: $gray-700;
+  border-color: $gray-600;
+  color: $gray-100;
+
+  &:hover {
+    background-color: $gray-600;
+    color: $white;
+  }
+}
+
+
+// ─── Forms ──────────────────────────────────────────────────────────────────
+
+legend {
+  font-family: $headings-font-family;
+  font-size: 1.15rem;
+  font-style: italic;
+  color: $gray-200;
+  letter-spacing: .03em;
+}
+
+.form-control,
+.form-select {
+  background-color: $gray-800;
+  border-color: $gray-600;
+  color: $gray-100;
+
+  &:focus {
+    background-color: $gray-700;
+    border-color: $primary;
+    box-shadow: $input-focus-box-shadow;
+    color: $white;
+  }
+
+  &::placeholder {
+    color: $gray-500;
+  }
+}
+
+.form-label {
+  font-size: .85rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: $gray-400;
+  font-family: $headings-font-family;
+}
+
+.form-check-input {
+  background-color: $gray-700;
+  border-color: $gray-500;
+
+  &:checked {
+    background-color: $primary;
+    border-color: $primary;
+  }
+
+  &:focus {
+    box-shadow: $input-focus-box-shadow;
+    border-color: $primary;
+  }
+}
+
+
+// ─── Navs / Tabs ────────────────────────────────────────────────────────────
+
+.dropdown-menu {
+  font-family: $font-family-sans-serif;
+  background-color: $gray-800;
+  border-color: $gray-700;
+  box-shadow: $box-shadow-lg;
+}
+
+.dropdown-item {
+  color: $gray-200;
+
+  &:hover,
+  &:focus {
+    background-color: rgba($primary, .15);
+    color: $white;
+  }
+}
+
+.nav-tabs {
+  border-bottom: 1px solid $gray-700;
+
+  .nav-link {
+    font-family: $headings-font-family;
+    letter-spacing: .04em;
+    color: $gray-400;
+    border: none;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    padding: .5rem .9rem;
+    transition: color .2s;
+
+    &:hover {
+      color: $primary;
+      border-bottom-color: rgba($primary, .3);
+    }
+
+    &.active {
+      color: $primary;
+      border-bottom-color: $primary;
+      background-color: transparent;
+      font-weight: 600;
+    }
+  }
+}
+
+.breadcrumb {
+  background-color: $gray-800;
+  padding: $breadcrumb-padding-y $breadcrumb-padding-x;
+  border-radius: $breadcrumb-border-radius;
+  font-size: .85rem;
+  letter-spacing: .03em;
+
+  a {
+    color: $primary;
+    text-decoration: none;
+    transition: color .2s;
+  }
+
+  a:hover {
+    color: lighten($primary, 10%);
+  }
+}
+
+
+// ─── Cards ──────────────────────────────────────────────────────────────────
+
+.card {
+  background-color: $gray-800;
+  border: 1px solid $gray-700;
+  box-shadow: $box-shadow-sm;
+  transition: box-shadow .25s ease, border-color .25s ease;
+
+  &:hover {
+    box-shadow: $box-shadow;
+    border-color: rgba($primary, .25);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+  }
+
+  &.card-accent {
+    border-top: 3px solid $primary;
+  }
+}
+
+.card-header {
+  font-family: $headings-font-family;
+  font-size: 1.05rem;
+  font-style: italic;
+  letter-spacing: .03em;
+  background-color: $gray-700;
+  border-bottom: 1px solid $gray-600;
+  color: $gray-100;
+}
+
+.card-footer {
+  background-color: $gray-700;
+  border-top: 1px solid $gray-600;
+}
+
+
+// ─── List groups ────────────────────────────────────────────────────────────
+
+.list-group-item {
+  background-color: $gray-800;
+  border-color: $gray-700;
+  color: $gray-200;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $gray-700;
+    color: $white;
+  }
+
+  &.active {
+    background-color: rgba($primary, .2);
+    border-color: rgba($primary, .4);
+    color: $primary;
+  }
+}
+
+
+// ─── Indicators ─────────────────────────────────────────────────────────────
+
+.alert {
+  border-left: 3px solid;
+  border-radius: $border-radius;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+
+  a,
+  .alert-link {
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: .2em;
+  }
+
+  &-success {
+    border-left-color: $success;
+    border-color: rgba($success, .25);
+    background-color: rgba($success, .1);
+    color: lighten($success, 20%);
+    a, .alert-link { color: lighten($success, 25%); }
+  }
+
+  &-danger {
+    border-left-color: $danger;
+    border-color: rgba($danger, .25);
+    background-color: rgba($danger, .1);
+    color: lighten($danger, 15%);
+    a, .alert-link { color: lighten($danger, 20%); }
+  }
+
+  &-warning {
+    border-left-color: $warning;
+    border-color: rgba($warning, .25);
+    background-color: rgba($warning, .1);
+    color: lighten($warning, 10%);
+    a, .alert-link { color: lighten($warning, 15%); }
+  }
+
+  &-info {
+    border-left-color: $info;
+    border-color: rgba($info, .25);
+    background-color: rgba($info, .1);
+    color: lighten($info, 15%);
+    a, .alert-link { color: lighten($info, 20%); }
+  }
+
+  &-light {
+    background-color: $gray-700;
+    border-color: $gray-600;
+    &,
+    a:not(.btn),
+    .alert-link {
+      color: $gray-200;
+    }
+  }
+
+  &-dark {
+    background-color: $gray-900;
+    border-color: $gray-700;
+    color: $gray-300;
+  }
+}
+
+.badge {
+  font-family: $headings-font-family;
+  font-size: .78rem;
+  font-style: italic;
+  letter-spacing: .05em;
+
+  &.bg-primary {
+    color: $gray-900;  // dark text for legibility on bright green
+  }
+
+  &.bg-light {
+    background-color: $gray-700 !important;
+    color: $gray-200;
+  }
+
+  &.bg-secondary {
+    background-color: $secondary !important;
+    color: $white;
+  }
+}
+
+
+// ─── Tables ─────────────────────────────────────────────────────────────────
+
+.table {
+  color: $gray-200;
+  font-size: .93rem;
+
+  thead th {
+    font-family: $headings-font-family;
+    font-size: .82rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: $gray-400;
+    border-bottom: 2px solid $gray-600;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  &-bordered {
+    border-color: $gray-700;
+
+    td, th {
+      border-color: $gray-700;
+    }
+  }
+
+  &-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: rgba($primary, .05);
+    color: $gray-200;
+  }
+
+  &-hover > tbody > tr:hover > * {
+    background-color: rgba($primary, .09);
+    color: $white;
+  }
+}
+
+// Muted horizontal rule inside table
+.table > :not(:first-child) {
+  border-top: 1px solid $gray-700;
+}
+
+
+// ─── Code ───────────────────────────────────────────────────────────────────
+
+code {
+  font-size: .88em;
+  color: $teal;
+  background-color: rgba($teal, .12);
+  padding: .1em .35em;
+  border-radius: .2rem;
+}
+
+pre {
+  background-color: $gray-900;
+  color: $gray-200;
+  padding: 1.25rem 1.5rem;
+  border-radius: $border-radius-lg;
+  font-size: .88rem;
+  border: 1px solid $gray-700;
+  border-left: 3px solid $primary;
+
+  code {
+    color: inherit;
+    background-color: transparent;
+    padding: 0;
+  }
+}
+
+
+// ─── Pagination ─────────────────────────────────────────────────────────────
+
+.pagination {
+  font-family: $headings-font-family;
+  letter-spacing: .04em;
+}
+
+.page-link {
+  background-color: $gray-800;
+  border-color: $gray-700;
+  color: $primary;
+
+  &:hover {
+    background-color: rgba($primary, .2);
+    border-color: rgba($primary, .4);
+    color: $primary;
+  }
+}
+
+.page-item.active .page-link {
+  background-color: $primary;
+  border-color: $primary;
+  color: $gray-900;
+}
+
+.page-item.disabled .page-link {
+  background-color: $gray-700;
+  border-color: $gray-600;
+  color: $gray-500;
+}
+
+
+// ─── Utility: botanical section divider ─────────────────────────────────────
+// Use <hr class="divider-botanical"> for a decorative ruled line
+
+.divider-botanical {
+  border: none;
+  border-top: 1px solid $gray-700;
+  text-align: center;
+  margin: 2rem auto;
+  position: relative;
+  max-width: 80%;
+
+  &::after {
+    content: '✦';
+    display: inline-block;
+    position: relative;
+    top: -.65em;
+    background-color: $gray-900;
+    padding: 0 .75rem;
+    color: $primary;
+    font-size: .85rem;
+    opacity: .55;
+  }
+}
